@@ -189,11 +189,11 @@ Example:
 "id": 20
 }
 
-## validation usage:
-
 - the above response will get if you successfully input the task title,description and completed status in the body section with status code as [201] created with message
   `{message: "New task added successfully"}`
   and the id of the task object.
+
+  ## validation usage:
 
 - If you input the task title,description and completed status in the body section as empty value, you will get status code as [400] bad request with message
   `{message: "Field is required ,cannot be empty"}`
@@ -207,6 +207,8 @@ Example:
 
 - to change the specific fields in the task object, add the id in the url and add the updated fields in the body section.
 
+
+## validation usage:
 
 - In the response you will get task is updated successfully, only if you input correct id,
   if you input wrong id, you will get the error message as `{"message":"Task not found"}`
