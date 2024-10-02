@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "title": "Set up environment",
-      "description": "Install Node.js, npm, and git",
-      "completed": true
-    },
-    {
       "id": 2,
       "title": "Create a new project",
       "description": "Create a new project using the Express application generator",
@@ -85,10 +79,40 @@
       "completed": false
     },
     {
-      "id": 15,
-      "title": "Install jsonwebtoken",
-      "description": "Install jsonwebtoken",
-      "completed": false
+      "title": "Install jsonWebtoken",
+      "description": "Install jsonWebtoken",
+      "completed": true,
+      "id": 15
+    },
+    {
+      "title": "CRUD Operations",
+      "description": "Perform CRUD Operations with clean validation",
+      "completed": false,
+      "id": 16
+    },
+    {
+      "title": "Dummy Task Data",
+      "description": "New Task with title and description",
+      "completed": false,
+      "id": 17
+    },
+    {
+      "title": "Initialize Middleware",
+      "description": "Implement Middleware for the CRUD Operations",
+      "completed": true,
+      "id": 19
+    },
+    {
+      "title": "Implement Router",
+      "description": "Implement Router and pass router to the main app.js",
+      "completed": false,
+      "id": 20
+    },
+    {
+      "title": "Final Test of POST",
+      "description": "Checking whether working",
+      "completed": true,
+      "id": 21
     }
   ]
 }
