@@ -221,4 +221,4 @@ Example:
 
 ## Validation usage:
 
-- if you input wrong id, you will get the error message as { error: "Task doesnot exist for the given id" } with [404] status in the body section.
+- if you input wrong id, you will get the error message as `{ error: "Task doesnot exist for the given id" }` with [404] status in the body section.
