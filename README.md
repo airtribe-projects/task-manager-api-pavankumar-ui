@@ -207,7 +207,6 @@ Example:
 
 - to change the specific fields in the task object, add the id in the url and add the updated fields in the body section.
 
-## Validation usage:
 
 - In the response you will get task is updated successfully, only if you input correct id,
   if you input wrong id, you will get the error message as `{"message":"Task not found"}`
