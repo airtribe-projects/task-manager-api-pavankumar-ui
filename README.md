@@ -46,13 +46,13 @@ e. To Delete a task by ID:
 
 ### Prerequisites to be installed on your machine.
 
-- Make sure your Node.js version to be installed more than 18, not below versions.
+- Make sure your Node.js to be installed version which is more than 18, not below versions.
 - npm Command Line Interface (CLI) which comes under node to install the required packages.
 
 ## Setup Instructions and installation of packages.
 
 _Step1_: Clone the repository having github classroom link to your machine with your specific drive.
-
+  
 - Git clone https://github.com/airtribe-projects/task-manager-api-pavankumar-ui.git
 
 the above command will clone/Fork the repository to your machine.
@@ -109,6 +109,17 @@ _Step 9_ : If you want to place the PORT in the env file then you can install th
 _Step 10_ : The API will be available at `http://localhost:3000`.
 
 - you can test the API using the postman.
+
+- _Step 11_ : Implement Middleware using Express.
+
+-  `app.use(express.json());`
+-   The above code will parse the json body when the client inputs the data.
+
+-  If we want multiple middleware functions to be in chain,in which each performs some specific task then we use next params.
+-   `function ValidateTaskData(req, res, next) {
+-   `next();`
+-   }` 
+
 
 ## API ENDPOINTS
 
