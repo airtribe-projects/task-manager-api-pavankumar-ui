@@ -110,7 +110,7 @@ _Step 10_ : The API will be available at `http://localhost:3000`.
 
 - you can test the API using the postman.
 
-- _Step 11_ : Implement Middleware using Express.
+ _Step 11_ : Implement Middleware using Express.
 
 -  `app.use(express.json());`
 -   The above code will parse the json body when the client inputs the data.
