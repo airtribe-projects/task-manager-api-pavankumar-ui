@@ -114,21 +114,21 @@ _Step 10_ : The API will be available at `http://localhost:3000`.
 
 - **API Endpoints and their descriptions given below**:
 
-Method Endpoint Description Body Parameters
-GET ---- /tasks ----Get all tasks N/A
-GET ----- /tasks/:id ---- Get a specific task by ID N/A
+Method          Endpoint     Description                 Body Parameters
+GET              /tasks        Get all tasks                N/A
+GET             /tasks/:id     Get a specific task by ID       N/A
 
-POST ------ /tasks ------Create a new task `{ "title": "Task title",
-                                                "description":"demo description",
-                                                 "completed": false
-                                                 }`
+POST           /tasks          Create a new task             `{ "title": "Task title",
+                                                             "description":"demo description",
+                                                               "completed": false
+                                                             }`
 
-PUT ------- /tasks/:id ----Update a task by ID `{ "title": "Updated title",
-                                                  "description":"updated demo description",
-                                                  "completed": true
-                                                }`
+PUT           /tasks/:id    Update a task by ID          `{ "title": "Updated title",
+                                                             "description":"updated demo description",
+                                                             "completed": true
+                                                           }`
 
-DELETE ------ /tasks/:id --------- Delete a task by ID ----- N/A
+DELETE       /tasks/:id     Delete a task by ID         N/A
 
 ## Testing the API using Postman
 
