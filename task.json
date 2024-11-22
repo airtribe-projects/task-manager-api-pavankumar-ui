@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "title": "Set up environment",
-      "description": "Install Node.js, npm, and git",
-      "completed": true
-    },
-    {
       "id": 2,
       "title": "Create a new project",
       "description": "Create a new project using the Express application generator",
@@ -85,10 +79,250 @@
       "completed": false
     },
     {
-      "id": 15,
-      "title": "Install jsonwebtoken",
-      "description": "Install jsonwebtoken",
-      "completed": false
+      "title": "Install jsonWebtoken",
+      "description": "Install jsonWebtoken",
+      "completed": true,
+      "id": 15
+    },
+    {
+      "title": "CRUD Operations",
+      "description": "Perform CRUD Operations with clean validation",
+      "completed": false,
+      "id": 16
+    },
+    {
+      "title": "Dummy Task Data",
+      "description": "New Task with title and description",
+      "completed": false,
+      "id": 17
+    },
+    {
+      "title": "Initialize Middleware",
+      "description": "Implement Middleware for the CRUD Operations",
+      "completed": true,
+      "id": 19
+    },
+    {
+      "title": "Implement Router",
+      "description": "Implement Router and pass router to the main app.js",
+      "completed": false,
+      "id": 20
+    },
+    {
+      "title": "Final Test of POST",
+      "description": "Checking whether working",
+      "completed": true,
+      "id": 21
+    },
+    {
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "id": 22
+    },
+    {
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "id": 23
+    },
+    {
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "id": 24
+    },
+    {
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "id": 25
+    },
+    {
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "id": 26
+    },
+    {
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "id": 27
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 28
+    },
+    {
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "id": 29
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 30
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 31
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 32
+    },
+    {
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "id": 33
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 34
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 35
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 36
+    },
+    {
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "id": 37
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 38
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 39
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 40
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 41
+    },
+    {
+      "title": "Original Task",
+      "description": "Original Description",
+      "completed": false,
+      "id": 42
+    },
+    {
+      "title": "Task to Delete",
+      "description": "This will be deleted",
+      "completed": false,
+      "id": 43
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 44
+    },
+    {
+      "title": "Original Task",
+      "description": "Original Description",
+      "completed": false,
+      "id": 45
+    },
+    {
+      "title": "Task to Delete",
+      "description": "This will be deleted",
+      "completed": false,
+      "id": 46
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 47
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 48
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 49
+    },
+    {
+      "title": "Integration Test Task",
+      "description": "Testing POST endpoint",
+      "completed": false,
+      "id": 50
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 51
+    },
+    {
+      "title": "Integration Test Task",
+      "description": "Testing POST endpoint",
+      "completed": false,
+      "id": 52
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 53
+    },
+    {
+      "title": "Integration Test Task",
+      "description": "Testing POST endpoint",
+      "completed": false,
+      "id": 54
+    },
+    {
+      "title": "Test Task",
+      "description": "Test Description",
+      "completed": false,
+      "id": 55
+    },
+    {
+      "title": "Integration Test Task",
+      "description": "Testing POST endpoint",
+      "completed": false,
+      "id": 56
     }
   ]
 }
