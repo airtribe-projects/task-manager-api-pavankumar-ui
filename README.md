@@ -46,13 +46,13 @@ e. To Delete a task by ID:
 
 ### Prerequisites to be installed on your machine.
 
-- Make sure your Node.js version to be installed more than 18, not below versions.
+- Make sure your Node.js to be installed version which is more than 18, not below versions.
 - npm Command Line Interface (CLI) which comes under node to install the required packages.
 
 ## Setup Instructions and installation of packages.
 
 _Step1_: Clone the repository having github classroom link to your machine with your specific drive.
-
+  
 - Git clone https://github.com/airtribe-projects/task-manager-api-pavankumar-ui.git
 
 the above command will clone/Fork the repository to your machine.
@@ -110,25 +110,36 @@ _Step 10_ : The API will be available at `http://localhost:3000`.
 
 - you can test the API using the postman.
 
+ _Step 11_ : Implement Middleware using Express.
+
+-  `app.use(express.json());`
+-   The above code will parse the json body when the client inputs the data.
+
+-  If we want multiple middleware functions to be in chain,in which each performs some specific task then we use next params.
+-   `function ValidateTaskData(req, res, next) {
+-   `next();`
+-   }` 
+
+
 ## API ENDPOINTS
 
 - **API Endpoints and their descriptions given below**:
 
-Method Endpoint Description Body Parameters
-GET ---- /tasks ----Get all tasks N/A
-GET ----- /tasks/:id ---- Get a specific task by ID N/A
+Method          Endpoint     Description                 Body Parameters
+GET              /tasks        Get all tasks                N/A
+GET             /tasks/:id     Get a specific task by ID       N/A
 
-POST ------ /tasks ------Create a new task `{ "title": "Task title",
-                                                "description":"demo description",
-                                                 "completed": false
-                                                 }`
+POST           /tasks          Create a new task             `{ "title": "Task title",
+                                                             "description":"demo description",
+                                                               "completed": false
+                                                             }`
 
-PUT ------- /tasks/:id ----Update a task by ID `{ "title": "Updated title",
-                                                  "description":"updated demo description",
-                                                  "completed": true
-                                                }`
+PUT           /tasks/:id    Update a task by ID          `{ "title": "Updated title",
+                                                             "description":"updated demo description",
+                                                             "completed": true
+                                                           }`
 
-DELETE ------ /tasks/:id --------- Delete a task by ID ----- N/A
+DELETE       /tasks/:id     Delete a task by ID         N/A
 
 ## Testing the API using Postman
 
@@ -189,11 +200,11 @@ Example:
 "id": 20
 }
 
-## validation usage:
-
 - the above response will get if you successfully input the task title,description and completed status in the body section with status code as [201] created with message
   `{message: "New task added successfully"}`
   and the id of the task object.
+
+  ## validation usage:
 
 - If you input the task title,description and completed status in the body section as empty value, you will get status code as [400] bad request with message
   `{message: "Field is required ,cannot be empty"}`
@@ -207,7 +218,8 @@ Example:
 
 - to change the specific fields in the task object, add the id in the url and add the updated fields in the body section.
 
-## Validation usage:
+
+## validation usage:
 
 - In the response you will get task is updated successfully, only if you input correct id,
   if you input wrong id, you will get the error message as `{"message":"Task not found"}`
@@ -222,4 +234,4 @@ Example:
 
 ## Validation usage:
 
-- if you input wrong id, you will get the error message as { error: "Task doesnot exist for the given id" } with [404] status in the body section.
+- if you input wrong id, you will get the error message as `{ error: "Task doesnot exist for the given id" }` with [404] status in the body section.
